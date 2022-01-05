@@ -13,6 +13,9 @@ h2{
 h3{
     font-size: 36px;
 }
+h4{
+    font-size: 28px;
+}
 p{
     font-weight: 200;
     font-size: 20px;
@@ -26,6 +29,7 @@ span{
 .top{
     display: flex;
     padding-left: 5%;
+    margin-bottom: 100px;
 }
 .top img{
     width: 80%;
@@ -33,6 +37,7 @@ span{
 .mid{
     display: flex;
     padding-left: 5%; 
+    margin-bottom: 100px;
 }
 .mid img{
     width: 50%;
@@ -57,9 +62,58 @@ span{
     background-image: url(/images/shapes/7.png);
     background-repeat: no-repeat;
 }
+.recipe{
+    margin-bottom: 100px;
+}
 .recipe-1{
     text-align: center;
 }
 .recipe-1 p{
     font-size: 18PX;
+}
+.recipe-parent{
+    display: flex;
+}
+.recipe-child{
+    width: 30%;
+    margin: 3%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+.recipe-child p{
+    font-size: 18px;
+    text-align: justify;
+}
+.recipe-child img{
+    width: 100%;
+}
+.follow{
+    width: 30;
+    margin: 0% 5%;
+    padding: 5%;
+}
+.recipe-parent-2{
+    display: flex;
+    margin: 0 100px;
+    background-color: white;
+    box-shadow: 10px 10px 30px gray;
+
+}
+.follow h2{
+    color: black;
+    font-size: 48px;
+}
+.follow p{
+    font-size: 16px;
+    font-weight: 100;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 100px 0px;
+}
+footer p{
+    color: white;
 }
